@@ -1,0 +1,107 @@
+<div class="section" id="education">
+    <div class="cc-contact-information" style="background-image: url('assets/images/iLIsOn.jpg');">
+        <div class="container cc-education">
+            <div class="h4 text-center mb-4 title">Éducation</div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body cc-education-header">
+                            <p>2016-2019</p>
+                            <div class="h5">Licence fondamentale
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body">
+                            <div class="h4">Licence &nbsp; &nbsp;
+                                <a (click)="confirm1()" target="_blank" rel="tooltip" title="Diplôme de licence">
+
+
+                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i></a> &nbsp; &nbsp;
+                                <a href="https://drive.google.com/file/d/1JGDWj07VxQB8xUZW-WBb-w2zfhQF33ks/view?usp=sharing" target="_blank" rel="tooltip" title="Moment de graduation">
+
+
+                                    <i class="fa fa-video-camera" aria-hidden="true"></i></a>
+
+                            </div>
+                            <h4 class="category"> Faculté des sciences économiques et de gestion de Tunis «FSEGT »</h4>
+                            <ul>
+                                <li> Licence fondamentale en infomatique appliqué à la gestion <b>IG</b></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body cc-education-header">
+                            <p>janvier 2019 à février 2019.</p>
+                            <div class="h5">Formation</div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body">
+                            <div class="h4">Formation Angular 7 </div>
+                            <h4 class="category">Centre de formation FormaLab</h4>
+                            <ul>
+                                <li>Apprentissage de l’Angular et la réalisation d’un projet de fin de formation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body cc-education-header">
+                            <p>2015</p>
+                            <div class="h5">Baccalauréat
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                        <div class="card-body">
+                            <div class="h5">Diplôme national Baccalauréat &nbsp; &nbsp;
+                                <a (click)="confirm3()" target="_blank" rel="tooltip" title="Diplôme de Baccalauréat">
+
+
+                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i></a> &nbsp; &nbsp;
+                            </div>
+                            <h4 class="category">Lycée El-Wafa</h4>
+                            <ul>
+                                <li>Baccalauréat en sciences économiques et de gestion.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<p-dialog header="Diplôme de licence" [(visible)]="display">
+
+    <a href="#">
+        <img src="assets/images/licence.jpg" alt="Image" />
+    </a>
+
+    <p-footer>
+        <button class="btn btn-primary smooth-scroll mr-2" (click)="confirm2()">Fermer</button>
+    </p-footer>
+</p-dialog>
+<p-dialog header="Diplôme de Baccalauréat" [(visible)]="displayBac">
+
+    <a href="#">
+        <img src="assets/images/bac.jpg" alt="Image" />
+    </a>
+
+    <p-footer>
+        <button class="btn btn-primary smooth-scroll mr-2" (click)="confirm4()">Fermer</button>
+    </p-footer>
+</p-dialog>
